@@ -7,7 +7,7 @@ npm install
 react-native run-ios
 ```
 
-### rename React Native project's name
+### rename React Native project
 Change the name attribute in package.json, run
 ```
 react-native upgrade
