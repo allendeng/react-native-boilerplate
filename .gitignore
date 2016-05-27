@@ -4,9 +4,7 @@
 
 # Xcode
 #
-ios/build/*
-!ios/build/Build
-!Project.app
+build/
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -34,6 +32,3 @@ local.properties
 #
 node_modules/
 npm-debug.log
-
-# Deco
-.deco

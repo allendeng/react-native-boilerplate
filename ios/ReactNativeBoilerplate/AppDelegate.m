@@ -44,7 +44,7 @@
 //   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                      moduleName:@"Project"
+                                                      moduleName:@"ReactNativeBoilerplate"
                                                initialProperties:nil
                                                    launchOptions:launchOptions];
 

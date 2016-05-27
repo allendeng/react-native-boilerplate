@@ -31,7 +31,6 @@ function getUserByIdFailure(error) {
 }
 
 export function getUserById(id) {
-  console.log(string)
   return async (dispatch) => {
     dispatch(getUserByIdRequest())
 

@@ -7,10 +7,10 @@ import React, { Component } from 'react'
 import { AppRegistry } from 'react-native'
 import App from './src'
 
-class Project extends Component {
+class ReactNativeBoilerplate extends Component {
   render() {
     return <App />
   }
 }
 
-AppRegistry.registerComponent('Project', () => Project)
+AppRegistry.registerComponent('ReactNativeBoilerplate', () => ReactNativeBoilerplate)
