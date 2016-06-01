@@ -16,10 +16,10 @@ class HomeContainer extends Component {
   }
 
   render() {
-    const { route, navigator, getUserByIdState } = this.props
+    const { dispatch, ...other } = this.props
 
     return (
-      <Home route={route} navigator={navigator} getUserByIdState={getUserByIdState} />
+      <Home {...other} />
     )
   }
 }
